@@ -2,7 +2,7 @@
   <SqlQueryUnified
     id="query1"
     allowedGroupIds={[7]}
-    allowedGroups={["test2"]}
+    allowedGroups={["test3"]}
     resourceDisplayName="retool_db"
     resourceName="d506dc20-d642-41bf-a365-96669ca28c7b"
   />
