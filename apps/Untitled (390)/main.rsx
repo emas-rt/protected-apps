@@ -45,7 +45,7 @@
         referenceId="column1"
         size={100}
         summaryAggregationMode="none"
-        valueOverride="{{ currentSourceRow }}"
+        valueOverride="{{ currentSourceRow }} ads"
       />
       <ToolbarButton
         id="1a"
