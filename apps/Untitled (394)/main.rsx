@@ -10,7 +10,7 @@
   >
     <KeyValue
       id="keyValue1"
-      data="{id: 1, firstName: 'Test'}"
+      data="{id: 1, '': 3}"
       editIcon="bold/interface-edit-pencil"
       enableSaveActions={true}
       groupLayout="singleColumn"
