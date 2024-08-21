@@ -10,7 +10,7 @@
   >
     <KeyValue
       id="keyValue1"
-      data="{id: 1, '': 2}"
+      data="{id: 1, firstName: 'Test'}"
       editIcon="bold/interface-edit-pencil"
       enableSaveActions={true}
       groupLayout="singleColumn"
@@ -20,18 +20,18 @@
       <Property
         id="id"
         editable="false"
-        editableOptions={{ map: { showStepper: true } }}
+        editableOptions={{ showStepper: true }}
         format="decimal"
         formatOptions={{ showSeparators: true, notation: "standard" }}
         hidden="false"
         label="ID"
       />
       <Property
-        id=""
+        id="firstName"
         editable="false"
-        editableOptions={{ map: { showStepper: true } }}
-        format="decimal"
-        formatOptions={{ showSeparators: true, notation: "standard" }}
+        editableOptions={{}}
+        format="string"
+        formatOptions={{}}
         hidden="false"
       />
     </KeyValue>
