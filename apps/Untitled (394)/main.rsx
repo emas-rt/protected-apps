@@ -20,18 +20,18 @@
       <Property
         id="id"
         editable="false"
-        editableOptions={{ showStepper: true }}
+        editableOptions={{ map: { showStepper: true } }}
         format="decimal"
         formatOptions={{ showSeparators: true, notation: "standard" }}
         hidden="false"
         label="ID"
       />
       <Property
-        id="firstName"
+        id=""
         editable="false"
-        editableOptions={{}}
-        format="string"
-        formatOptions={{}}
+        editableOptions={{ map: { showStepper: true } }}
+        format="decimal"
+        formatOptions={{ showSeparators: true, notation: "standard" }}
         hidden="false"
       />
     </KeyValue>
