@@ -1,1 +1,0 @@
-variable1.setValue([1,2,3])
