@@ -8,7 +8,7 @@
   <SqlQueryUnified
     id="query1"
     allowedGroupIds={[41]}
-    allowedGroups={["groupC"]}
+    allowedGroups={["groupF"]}
     query={include("../lib/query1.sql", "string")}
     resourceDisplayName="retool_db"
     resourceName="d506dc20-d642-41bf-a365-96669ca28c7b"
@@ -21,5 +21,11 @@
     isHiddenOnMobile={false}
     padding="8px 12px"
     type="main"
-  />
+  >
+    <Text
+      id="text1"
+      value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
+      verticalAlign="center"
+    />
+  </Frame>
 </Screen>
