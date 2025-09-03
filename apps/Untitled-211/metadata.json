@@ -9,7 +9,7 @@
           "array": ["folder1"]
         },
         "page1": {
-          "array": []
+          "array": ["folder1"]
         },
         "page3": {
           "array": []
