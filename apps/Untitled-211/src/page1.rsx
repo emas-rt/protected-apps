@@ -21,6 +21,11 @@
       value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
       verticalAlign="center"
     />
+    <Text
+      id="text2"
+      value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
+      verticalAlign="center"
+    />
     <Container
       id="container1"
       footerPadding="4px 12px"
