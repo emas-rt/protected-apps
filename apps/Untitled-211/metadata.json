@@ -9,7 +9,7 @@
           "array": ["folder1"]
         },
         "page1": {
-          "array": ["folder1", "folder2"]
+          "array": ["folder1", "folder2", "folder3"]
         },
         "page3": {
           "array": []
@@ -17,7 +17,7 @@
       }
     },
     "rootScreen": "page1",
-    "version": "3.266.0",
+    "version": "3.289.0",
     "experimentalDataTabEnabled": true
   }
 }
