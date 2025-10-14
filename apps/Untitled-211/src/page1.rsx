@@ -33,5 +33,6 @@
       </Header>
       <View id="00030" viewKey="View 1" />
     </Container>
+    <Button id="button1" text="Button" />
   </Frame>
 </Screen>
