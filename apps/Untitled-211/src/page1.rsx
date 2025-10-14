@@ -16,6 +16,11 @@
     padding="8px 12px"
     type="main"
   >
+    <Text
+      id="text1"
+      value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
+      verticalAlign="center"
+    />
     <Container
       id="container1"
       footerPadding="4px 12px"
