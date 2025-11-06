@@ -31,22 +31,5 @@
       value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
       verticalAlign="center"
     />
-    <Container
-      id="container1"
-      footerPadding="4px 12px"
-      headerPadding="4px 12px"
-      padding="12px"
-      showBody={true}
-      showHeader={true}
-    >
-      <Header>
-        <Text
-          id="containerTitle1"
-          value="#### Container title"
-          verticalAlign="center"
-        />
-      </Header>
-      <View id="00030" viewKey="View 1" />
-    </Container>
   </Frame>
 </Screen>
