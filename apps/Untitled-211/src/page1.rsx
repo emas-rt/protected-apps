@@ -2,6 +2,7 @@
   id="page1"
   _customShortcuts={[]}
   _hashParams={[]}
+  _order={0}
   _searchParams={[]}
   browserTitle=""
   title="Page 1"
@@ -21,6 +22,13 @@
       value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
       verticalAlign="center"
     />
+    <TextInput
+      id="textInput1"
+      label=""
+      labelPosition="top"
+      placeholder="Enter value"
+    />
+    <Button id="button1" text="Button" />
     <Text
       id="text2"
       value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
@@ -31,23 +39,7 @@
       value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
       verticalAlign="center"
     />
-    <Container
-      id="container1"
-      footerPadding="4px 12px"
-      headerPadding="4px 12px"
-      padding="12px"
-      showBody={true}
-      showHeader={true}
-    >
-      <Header>
-        <Text
-          id="containerTitle1"
-          value="#### Container title"
-          verticalAlign="center"
-        />
-      </Header>
-      <View id="00030" viewKey="View 1" />
-    </Container>
-    <Button id="button1" text="Button" />
+    <Button id="button2" text="Button" />
+    <Button id="button3" text="Button" />
   </Frame>
 </Screen>

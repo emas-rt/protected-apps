@@ -1,38 +1,33 @@
 {
   "button1": {
-    "row": 13.8,
+    "row": 0.2,
+    "height": 1
+  },
+  "button2": {
+    "row": 2.4,
     "height": 1,
     "width": 2
   },
-  "container1": {
-    "row": 4.6,
-    "col": 2,
-    "height": 0.2,
-    "width": 6,
-    "stackPosition": {
-      "object": {
-        "ordinal": 0,
-        "widthType": "fixed",
-        "width": 0,
-        "height": 0
-      }
-    }
-  },
-  "containerTitle1": {
-    "container": "container1",
-    "rowGroup": "header",
-    "height": 0.6,
-    "width": 12
+  "button3": {
+    "row": 6.8,
+    "col": 3,
+    "height": 1,
+    "width": 2
   },
   "text1": {
+    "col": 3,
     "height": 0.6
   },
   "text2": {
-    "row": 1.4,
+    "row": 1.2,
     "height": 0.6
   },
   "text3": {
-    "row": 2.8,
+    "row": 1.8,
     "height": 0.6
+  },
+  "textInput1": {
+    "row": 0,
+    "height": 0.2
   }
 }
