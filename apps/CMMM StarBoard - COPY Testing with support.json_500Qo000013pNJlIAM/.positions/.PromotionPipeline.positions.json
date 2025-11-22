@@ -1,0 +1,137 @@
+{
+  "NavigationStack5": {
+    "row": 0,
+    "height": 3.8,
+    "width": 12
+  },
+  "circularImage5": {
+    "type": "stack",
+    "container": "stack5",
+    "subcontainer": "00030",
+    "height": 3.8,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 156.25,
+        "height": 152
+      }
+    }
+  },
+  "deployedOnDate": {
+    "row": 4,
+    "col": 6,
+    "height": 0.2
+  },
+  "displayCurrentlyInProdModel": {
+    "row": 8.6,
+    "col": 9,
+    "height": 0.6
+  },
+  "displayValidationSummaryCheckbox": {
+    "row": 7,
+    "col": 9,
+    "height": 0.6
+  },
+  "drawerCloseButton1": {
+    "rowGroup": "header",
+    "subcontainer": "pipelineDetailsFrame",
+    "col": 9,
+    "height": 1
+  },
+  "drawerTitle1": {
+    "rowGroup": "header",
+    "subcontainer": "pipelineDetailsFrame",
+    "height": 0.6,
+    "width": 9
+  },
+  "pipelineDetailsKeyValue": {
+    "subcontainer": "pipelineDetailsFrame",
+    "row": 0.6,
+    "height": 5.6,
+    "width": 12
+  },
+  "promotionPipelineKpiSelect": {
+    "row": 3.8,
+    "col": 3,
+    "height": 0.2
+  },
+  "promotionPipelineOrgSelect": {
+    "row": 3.8,
+    "height": 0.2
+  },
+  "promotionPipelineRunTable": {
+    "row": 9.2,
+    "height": 17,
+    "width": 12
+  },
+  "selectedValidationsPassedStatus2": {
+    "row": 3.8,
+    "col": 6,
+    "height": 0.2
+  },
+  "stack5": {
+    "type": "stack",
+    "container": "NavigationStack5",
+    "subcontainer": "00030",
+    "height": 1,
+    "width": 8,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 958,
+        "height": 184
+      }
+    }
+  },
+  "table2": {
+    "subcontainer": "pipelineDetailsFrame",
+    "row": 6.8,
+    "height": 9.8,
+    "width": 12
+  },
+  "text21": {
+    "type": "stack",
+    "container": "stack5",
+    "subcontainer": "00030",
+    "row": 1,
+    "col": 2,
+    "height": 0.6,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 375,
+        "height": 64
+      }
+    }
+  },
+  "text22": {
+    "subcontainer": "pipelineDetailsFrame",
+    "row": 6.2,
+    "height": 0.6,
+    "width": 12
+  },
+  "text23": {
+    "subcontainer": "pipelineDetailsFrame",
+    "height": 0.6,
+    "width": 6
+  },
+  "text6": {
+    "row": 4.2,
+    "height": 0.6,
+    "width": 5
+  },
+  "trainedOnDate": {
+    "row": 4,
+    "col": 3,
+    "height": 0.2
+  },
+  "weekendRunsSelect": {
+    "row": 4,
+    "height": 0.2
+  }
+}

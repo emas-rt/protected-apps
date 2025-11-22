@@ -1,0 +1,405 @@
+{
+  "NavigationStack7": {
+    "height": 3.8,
+    "width": 12
+  },
+  "circularImage7": {
+    "type": "stack",
+    "container": "stack7",
+    "subcontainer": "00030",
+    "height": 3.8,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 156.25,
+        "height": 152
+      }
+    }
+  },
+  "container2": {
+    "container": "tabbedContainer2",
+    "subcontainer": "00030",
+    "row": 3.8,
+    "height": 0.2,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "container3": {
+    "container": "tabbedContainer2",
+    "subcontainer": "00031",
+    "row": 3.8,
+    "height": 0.2,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "containerTitle2": {
+    "container": "container2",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "containerTitle3": {
+    "container": "container3",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "dataPrepBoxPlotChart": {
+    "container": "container3",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "height": 5.8,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "dataPrepPipelineCompletionTable": {
+    "type": "stack",
+    "container": "dataPrepPipelineStatsGroup",
+    "subcontainer": "00030",
+    "row": 17.6,
+    "height": 1,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fill",
+        "width": "100px",
+        "height": 320
+      }
+    }
+  },
+  "dataPrepPipelineCompletionTimeByRun": {
+    "container": "tabbedContainer2",
+    "subcontainer": "00031",
+    "col": 6,
+    "height": 3.8,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "dataPrepPipelineMetricByRun": {
+    "type": "stack",
+    "container": "dataPrepPipelineCompletionTimeByRun",
+    "subcontainer": "00030",
+    "row": 21.8,
+    "col": 6,
+    "height": 22.8,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fill",
+        "width": "100px",
+        "height": 553
+      }
+    }
+  },
+  "dataPrepPipelineStatsGroup": {
+    "container": "tabbedContainer2",
+    "subcontainer": "00031",
+    "height": 3.8,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "dateRange": {
+    "row": 6.2,
+    "col": 2,
+    "height": 0.2
+  },
+  "excludeOutliersPromotion": {
+    "type": "stack",
+    "container": "container2",
+    "subcontainer": "00030",
+    "height": 0.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 232,
+        "height": 24
+      }
+    }
+  },
+  "excludeOutliersToggle": {
+    "container": "container3",
+    "subcontainer": "00030",
+    "row": 0,
+    "height": 0.6,
+    "width": 11,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "includeKpisByOrgsList": {
+    "row": 6.4,
+    "col": 9,
+    "height": 3.8
+  },
+  "includeOrgsList": {
+    "row": 6.4,
+    "col": 6,
+    "height": 3.8
+  },
+  "navigation11": {
+    "type": "stack",
+    "container": "NavigationStack7",
+    "subcontainer": "00030",
+    "row": 3.8,
+    "height": 0.8,
+    "width": 7,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 1459,
+        "height": 32
+      }
+    }
+  },
+  "orgKpiSearchInput": {
+    "row": 6.2,
+    "col": 9,
+    "height": 0.2
+  },
+  "orgSearchInput": {
+    "row": 6.2,
+    "col": 6,
+    "height": 0.2
+  },
+  "pipelineStageChart": {
+    "type": "stack",
+    "container": "container2",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "height": 8.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fill",
+        "width": "100px",
+        "height": 428
+      }
+    }
+  },
+  "pipelineStageMetricsTable": {
+    "type": "stack",
+    "container": "promotionPipelineMetricGroup",
+    "subcontainer": "00030",
+    "row": 18.2,
+    "height": 1,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fill",
+        "width": "100px",
+        "height": 200
+      }
+    }
+  },
+  "promotionPipelineMetricGroup": {
+    "container": "tabbedContainer2",
+    "subcontainer": "00030",
+    "row": 0,
+    "height": 3.8,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 6,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "runInTimeRange": {
+    "container": "tabbedContainer2",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "col": 6,
+    "height": 16.6,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 4,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "stack7": {
+    "type": "stack",
+    "container": "NavigationStack7",
+    "subcontainer": "00030",
+    "height": 3.8,
+    "width": 8,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 958,
+        "height": 184
+      }
+    }
+  },
+  "tabbedContainer2": {
+    "row": 10.2,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "tabs2": {
+    "container": "tabbedContainer2",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "text25": {
+    "type": "stack",
+    "container": "stack7",
+    "subcontainer": "00030",
+    "row": 1,
+    "col": 2,
+    "height": 0.6,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 375,
+        "height": 64
+      }
+    }
+  },
+  "text31": {
+    "container": "tabbedContainer2",
+    "subcontainer": "00030",
+    "row": 0,
+    "col": 6,
+    "height": 0.6,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 5,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "text32": {
+    "type": "stack",
+    "container": "dataPrepPipelineCompletionTimeByRun",
+    "subcontainer": "00030",
+    "row": 21.2,
+    "col": 6,
+    "height": 0.6,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fill",
+        "width": "100px",
+        "height": 24
+      }
+    }
+  },
+  "text33": {
+    "type": "stack",
+    "container": "dataPrepPipelineStatsGroup",
+    "subcontainer": "00030",
+    "row": 17,
+    "height": 0.6,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fill",
+        "width": "100px",
+        "height": 24
+      }
+    }
+  },
+  "text34": {
+    "type": "stack",
+    "container": "promotionPipelineMetricGroup",
+    "subcontainer": "00030",
+    "row": 26.6,
+    "height": 0.6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 522,
+        "height": 24
+      }
+    }
+  },
+  "text35": {
+    "row": 8,
+    "height": 0.6,
+    "width": 6
+  },
+  "timeRangeSelect": {
+    "row": 6.2,
+    "height": 0.2,
+    "width": 2
+  },
+  "timeUnit": {
+    "row": 6.2,
+    "col": 5,
+    "height": 0.2,
+    "width": 1
+  }
+}

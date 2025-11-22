@@ -1,0 +1,18 @@
+{
+  "navigation": {
+    "type": "stack",
+    "container": "NavigationStack5",
+    "subcontainer": "00030",
+    "row": 5.4,
+    "height": 0.8,
+    "width": 7,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 1459,
+        "height": 32
+      }
+    }
+  }
+}
