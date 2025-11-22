@@ -1,0 +1,201 @@
+{
+  "NavigationStack": {
+    "height": 3.8,
+    "width": 12
+  },
+  "circularImage1": {
+    "type": "stack",
+    "container": "stack1",
+    "subcontainer": "00030",
+    "height": 3.8,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 156.25,
+        "height": 152
+      }
+    }
+  },
+  "container1": {
+    "container": "gridView1",
+    "height": 1,
+    "width": 10,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "containerTitle1": {
+    "container": "container1",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "eventList1": {
+    "type": "stack",
+    "container": "group1",
+    "subcontainer": "00030",
+    "row": 21.4,
+    "height": 3.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "auto",
+        "width": 191,
+        "height": 165
+      }
+    }
+  },
+  "gridView1": {
+    "row": 7.8,
+    "height": 1,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "group1": {
+    "container": "container1",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "height": 1,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "keyValue1": {
+    "container": "container1",
+    "subcontainer": "00030",
+    "height": 8.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "keyValue5": {
+    "container": "container1",
+    "subcontainer": "00030",
+    "row": 1.6,
+    "height": 1.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "kpiNameSelect": {
+    "row": 3.8,
+    "col": 3,
+    "height": 0.2,
+    "width": 2
+  },
+  "navigation15": {
+    "type": "stack",
+    "container": "NavigationStack",
+    "subcontainer": "00030",
+    "row": 5.4,
+    "height": 0.8,
+    "width": 7,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 1459,
+        "height": 32
+      }
+    }
+  },
+  "selectedDeployedToProd": {
+    "row": 3.8,
+    "col": 6,
+    "height": 0.2,
+    "width": 2
+  },
+  "selectedOrgNameAsKey": {
+    "row": 3.8,
+    "height": 0.2,
+    "width": 2
+  },
+  "selectedValidationsPassedStatus": {
+    "row": 3.8,
+    "col": 9,
+    "height": 0.2,
+    "width": 2
+  },
+  "stack1": {
+    "type": "stack",
+    "container": "NavigationStack",
+    "subcontainer": "00030",
+    "row": 0,
+    "height": 3.8,
+    "width": 8,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 958,
+        "height": 184
+      }
+    }
+  },
+  "text18": {
+    "type": "stack",
+    "container": "group1",
+    "subcontainer": "00030",
+    "row": 20.8,
+    "height": 0.6,
+    "width": 11,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 175.08333333333331,
+        "height": 24
+      }
+    }
+  },
+  "text2": {
+    "type": "stack",
+    "container": "stack1",
+    "subcontainer": "00030",
+    "row": 1,
+    "col": 2,
+    "height": 0.6,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 375,
+        "height": 64
+      }
+    }
+  }
+}

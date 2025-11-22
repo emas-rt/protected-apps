@@ -1,0 +1,63 @@
+<GlobalFunctions>
+  <DatastoreQuery
+    id="getAllPromotionPipelineRun"
+    actionType="queryDatastore"
+    datastoreWhere={
+      '[{"key":"created_at","value":"{{ new Date() }}","operation":"<"}]'
+    }
+    enableTransformer={true}
+    kind="PromotionPipelineRun"
+    notificationDuration={4.5}
+    queryRefreshTime="30000"
+    resourceName="3f7e6d03-e248-483e-b56b-259e5f3ee376"
+    resourceTypeOverride=""
+    runWhenModelUpdates={true}
+    showSuccessToaster={false}
+  />
+  <Function
+    id="getAllOrg"
+    funcBody={include("./lib/getAllOrg.js", "string")}
+    runBehavior="debounced"
+  />
+  <Function
+    id="getAllKPIByOrg"
+    funcBody={include("./lib/getAllKPIByOrg.js", "string")}
+    runBehavior="debounced"
+  />
+  <Function
+    id="ValidationPassedColors"
+    funcBody={include("./lib/ValidationPassedColors.js", "string")}
+    runBehavior="debounced"
+  />
+  <DatastoreQuery
+    id="getAllDataPrepPipelineRun"
+    actionType="queryDatastore"
+    datastoreWhere={
+      '[{"key":"created_at","value":"{{ new Date() }}","operation":"<="}]'
+    }
+    isMultiplayerEdited={false}
+    kind="DataPrepPipelineRun"
+    resourceName="3f7e6d03-e248-483e-b56b-259e5f3ee376"
+    runWhenModelUpdates={true}
+  />
+  <State
+    id="prodMetaflowUrlPrefixTraining"
+    value="https://metaflow.prod.tools.haus/CmmmModelTrainingFlow/"
+  />
+  <State
+    id="prodMetaflowUrlPrefixModelValidation"
+    value="https://metaflow.prod.tools.haus/CMMMModelValidationFlow/"
+  />
+  <State
+    id="prodMetaflowUrlPrefixDataPrep"
+    value="https://metaflow.prod.tools.haus/CMMMDataPrep/"
+  />
+  <State
+    id="prodMetaflowUrlPrefixServing"
+    value="https://metaflow.prod.tools.haus/GHADeployFlow/"
+  />
+  <State
+    id="prodMetaflowUrlPrefixDataPrepValidation"
+    value="https://metaflow.prod.tools.haus/CMMMDataPrepValidationFlow/"
+  />
+</GlobalFunctions>

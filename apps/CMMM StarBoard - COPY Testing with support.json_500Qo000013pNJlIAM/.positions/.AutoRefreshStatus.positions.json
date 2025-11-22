@@ -1,0 +1,89 @@
+{
+  "NavigationStack8": {
+    "height": 3.8,
+    "width": 12
+  },
+  "circularImage8": {
+    "type": "stack",
+    "container": "stack8",
+    "subcontainer": "00030",
+    "height": 3.8,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 156.25,
+        "height": 152
+      }
+    }
+  },
+  "countrySelect": {
+    "row": 6.2,
+    "col": 6,
+    "height": 0.2,
+    "width": 2
+  },
+  "kpiNameAsKeySelect": {
+    "row": 6.2,
+    "col": 3,
+    "height": 0.2
+  },
+  "navigation12": {
+    "type": "stack",
+    "container": "NavigationStack8",
+    "subcontainer": "00030",
+    "row": 1,
+    "height": 0.8,
+    "width": 7,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 1472,
+        "height": 27
+      }
+    }
+  },
+  "orgNameAsKeySelect": {
+    "row": 6.2,
+    "height": 0.2
+  },
+  "stack8": {
+    "type": "stack",
+    "container": "NavigationStack8",
+    "subcontainer": "00030",
+    "height": 1,
+    "width": 8,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 958,
+        "height": 184
+      }
+    }
+  },
+  "table3": {
+    "row": 8.4,
+    "height": 14.4,
+    "width": 12
+  },
+  "text36": {
+    "type": "stack",
+    "container": "stack8",
+    "subcontainer": "00030",
+    "row": 1,
+    "col": 2,
+    "height": 0.6,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 375,
+        "height": 64
+      }
+    }
+  }
+}

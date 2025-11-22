@@ -1,0 +1,83 @@
+{
+  "DataPrepKPISelect": {
+    "row": 3.8,
+    "col": 3,
+    "height": 0.2
+  },
+  "DataPrepPipelineRun": {
+    "row": 4,
+    "height": 16.8,
+    "width": 12
+  },
+  "NavigationStack6": {
+    "height": 3.8,
+    "width": 12
+  },
+  "circularImage6": {
+    "type": "stack",
+    "container": "stack6",
+    "subcontainer": "00030",
+    "height": 3.8,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 156.25,
+        "height": 152
+      }
+    }
+  },
+  "dataPrepOrgSelect": {
+    "row": 3.8,
+    "height": 0.2
+  },
+  "navigation13": {
+    "type": "stack",
+    "container": "NavigationStack6",
+    "subcontainer": "00030",
+    "row": 5.4,
+    "height": 0.8,
+    "width": 7,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 1459,
+        "height": 32
+      }
+    }
+  },
+  "stack6": {
+    "type": "stack",
+    "container": "NavigationStack6",
+    "subcontainer": "00030",
+    "height": 1,
+    "width": 8,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 958,
+        "height": 184
+      }
+    }
+  },
+  "text24": {
+    "type": "stack",
+    "container": "stack6",
+    "subcontainer": "00030",
+    "row": 1,
+    "col": 2,
+    "height": 0.6,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 375,
+        "height": 64
+      }
+    }
+  }
+}

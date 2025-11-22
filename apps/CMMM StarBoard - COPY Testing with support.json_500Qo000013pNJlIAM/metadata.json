@@ -1,0 +1,35 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "3cbba0c2-c641-11f0-8778-1b0110a99582",
+  "appTemplate": {
+    "appThemeId": "custom",
+    "pageCodeFolders": {
+      "object": {
+        "TabbedOrgPage": {
+          "array": []
+        },
+        "Home": {
+          "array": []
+        },
+        "PromotionPipeline": {
+          "array": []
+        },
+        "DataPrepPipeline": {
+          "array": []
+        },
+        "PipelineMetrics": {
+          "array": []
+        },
+        "AutoRefreshStatus": {
+          "array": []
+        }
+      }
+    },
+    "rootScreen": "Home",
+    "isFetching": true,
+    "customDocumentTitleEnabled": true,
+    "version": "3.305.0",
+    "experimentalDataTabEnabled": true
+  }
+}
