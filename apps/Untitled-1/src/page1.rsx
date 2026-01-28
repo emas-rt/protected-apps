@@ -48,12 +48,12 @@
     <Button id="button2" text="Button" />
     <Button id="button9" text="Button" />
     <Button id="button7" text="Button" />
+    <Button id="button5" text="Button" />
     <Text
       id="text4"
       value="{{ current_user.firstName }} was here"
       verticalAlign="center"
     />
-    <Button id="button5" text="Button" />
     <Button id="button3" text="Button" />
   </Frame>
 </Screen>
