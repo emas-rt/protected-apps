@@ -4,6 +4,16 @@
   "pageUuid": "cd636a1c-8a9e-11f0-bd6d-13e6b46bd553",
   "appTemplate": {
     "rootScreen": "page1",
-    "version": "3.300.6"
+    "version": "3.300.6",
+    "customShortcuts": {
+      "array": [
+        {
+          "object": {
+            "shortcut": "a",
+            "action": "utils.confetti()"
+          }
+        }
+      ]
+    }
   }
 }
