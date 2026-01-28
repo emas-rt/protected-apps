@@ -9,8 +9,8 @@
       "array": [
         {
           "object": {
-            "shortcut": "",
-            "action": ""
+            "shortcut": "a",
+            "action": "utils.confetti()"
           }
         }
       ]
