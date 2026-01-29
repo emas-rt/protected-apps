@@ -1,0 +1,20 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "3db9e1e2-fcbe-11f0-bd71-0f561aea8f9e",
+  "appTemplate": {
+    "rootScreen": "page1",
+    "version": "3.300.6",
+    "customShortcuts": {
+      "array": [
+        {
+          "object": {
+            "shortcut": "a",
+            "action": "utils.confetti()"
+          }
+        }
+      ]
+    },
+    "experimentalDataTabEnabled": true
+  }
+}
