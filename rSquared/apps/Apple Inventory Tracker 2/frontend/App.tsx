@@ -4,15 +4,7 @@ import { useState } from 'react'
 
 import { StarterCanvas } from './components/StarterCanvas'
 
-const QUOTES = [
-  { text: '“Test quote.”', author: '– Erin' },
-]
-
 export function CenterOverlay() {
-  const [quote] = useState(
-    () => QUOTES[Math.floor(Math.random() * QUOTES.length)] ?? QUOTES[0] ?? { text: '', author: '' },
-  )
-
   return (
     <div style={{ position: 'absolute', inset: 0, zIndex: 1, pointerEvents: 'none' }}>
       <div
@@ -45,7 +37,7 @@ export function CenterOverlay() {
             textIndent: '-0.35em',
           }}
         >
-          {quote.text}
+          Hello
         </p>
         <p
           style={{
@@ -60,7 +52,7 @@ export function CenterOverlay() {
             textAlign: 'left',
           }}
         >
-          {quote.author}
+          World
         </p>
       </div>
     </div>
