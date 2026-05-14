@@ -89,6 +89,12 @@ export default function App() {
     >
       <StarterCanvas />
       <CenterOverlay />
+      <div style={{ position: 'absolute', bottom: 136, left: 0, right: 0, zIndex: 2, display: 'flex', justifyContent: 'center', gap: 8, fontSize: 48, flexWrap: 'wrap' }}>
+        {Array.from({ length: 25 }, (_, i) => {
+          const ocean = ['🐋', '🐬', '🐙', '🦈', '🐠', '🐡', '🦑', '🐚', '🦀', '🦞', '🐳', '🪸', '🌊']
+          return <span key={i}>{ocean[i % ocean.length]}</span>
+        })}
+      </div>
       <div style={{ position: 'absolute', bottom: 80, left: 0, right: 0, zIndex: 2, display: 'flex', justifyContent: 'center', gap: 8, fontSize: 48, flexWrap: 'wrap' }}>
         {Array.from({ length: 25 }, (_, i) => {
           const veggies = ['🥕', '🥦', '🌽', '🥬', '🫑', '🍆', '🥒', '🧅', '🥔', '🌶️', '🧄', '🥗', '🫛']
