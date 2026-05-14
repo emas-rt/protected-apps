@@ -5,13 +5,7 @@ import { useState } from 'react'
 import { StarterCanvas } from './components/StarterCanvas'
 
 const QUOTES = [
-  { text: '“An empty canvas is a living wonder.”', author: '– Kandinsky' },
-  { text: '“The best way to predict the future is to build it.”', author: '– Alan Kay' },
-  { text: '“Every great system started as a blank file.”', author: '– Unknown' },
-  { text: '“A new repo is pure possibility.”', author: '– Unknown' },
-  { text: '“The first commit is an act of optimism.”', author: '– Unknown' },
-  { text: '“You can’t refactor what doesn’t exist yet. Start.”', author: '– Unknown' },
-  { text: '“Builders don’t wait for permission to begin.”', author: '– Unknown' },
+  { text: '“Test quote.”', author: '– Erin' },
 ]
 
 export function CenterOverlay() {
