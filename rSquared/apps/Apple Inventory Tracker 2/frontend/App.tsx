@@ -93,12 +93,7 @@ export default function App() {
           return <span key={i}>{veggies[i % veggies.length]}</span>
         })}
       </div>
-      <div style={{ position: 'absolute', bottom: 24, left: 0, right: 0, zIndex: 2, display: 'flex', justifyContent: 'center', gap: 8, fontSize: 48, flexWrap: 'wrap' }}>
-        {Array.from({ length: 25 }, (_, i) => {
-          const fruits = ['🍎', '🍊', '🍇', '🍋', '🍌', '🍉', '🍓', '🍑', '🍒', '🍍', '🥝', '🫐', '🥭']
-          return <span key={i}>{fruits[i % fruits.length]}</span>
-        })}
-      </div>
+
     </div>
   )
 }
