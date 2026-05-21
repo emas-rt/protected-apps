@@ -18,7 +18,7 @@ export default function App() {
     >
       <StarterCanvas />
       <div style={{ position: 'absolute', top: 40, left: 0, right: 0, zIndex: 2, display: 'flex', justifyContent: 'center' }}>
-        <h1 style={{ fontFamily: 'Inter, sans-serif', fontSize: 48, fontWeight: 700, color: '#242424', letterSpacing: '-0.5px', margin: 0 }}>erin</h1>
+        <h1 style={{ fontFamily: 'Inter, sans-serif', fontSize: 48, fontWeight: 700, color: '#242424', letterSpacing: '-0.5px', margin: 0 }}>erin hello</h1>
       </div>
 
     </div>
