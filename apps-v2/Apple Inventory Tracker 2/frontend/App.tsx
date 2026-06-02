@@ -34,7 +34,7 @@ export default function App() {
         </section>
 
         <section className="p-6 bg-card text-card-foreground border border-border rounded-lg">
-          <h2 className="text-xl font-bold mb-4">Backend: 1 + 1</h2>
+          <h2 className="text-xl font-bold mb-4">Backend function: 1 + 1</h2>
           {loading ? (
             <p className="text-muted-foreground">Loading...</p>
           ) : error ? (
