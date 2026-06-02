@@ -37,7 +37,7 @@ export function CenterOverlay() {
             textIndent: '-0.35em',
           }}
         >
-          Hello 123 456 abc
+          Hell
         </p>
         <p
           style={{
