@@ -50,7 +50,7 @@ export function CenterOverlay() {
             textAlign: 'left',
           }}
         >
-          World
+          World :)
         </p>
       </div>
     </div>
