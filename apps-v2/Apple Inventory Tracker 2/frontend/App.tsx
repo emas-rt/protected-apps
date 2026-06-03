@@ -7,7 +7,7 @@ export function CenterOverlay() {
     <div style={{ position: 'absolute', inset: 0, zIndex: 1, pointerEvents: 'none' }}>
       <div
       >
-hi hi hi hi
+test
       </div>
     </div>
   )
