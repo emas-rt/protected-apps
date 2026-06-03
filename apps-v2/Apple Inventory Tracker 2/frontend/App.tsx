@@ -22,7 +22,7 @@ export function CenterOverlay() {
             textIndent: '-0.35em',
           }}
         >
-          Hello
+          Hellooooo
         </p>
         <p
           style={{
