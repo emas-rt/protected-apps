@@ -1,7 +1,5 @@
 /** @jsxRuntime automatic */
 /* eslint-disable react-perf/jsx-no-new-object-as-prop */
-import { useState } from 'react'
-
 import { StarterCanvas } from './components/StarterCanvas'
 
 export function CenterOverlay() {
@@ -9,7 +7,7 @@ export function CenterOverlay() {
     <div style={{ position: 'absolute', inset: 0, zIndex: 1, pointerEvents: 'none' }}>
       <div
       >
-hi
+hi hi
       </div>
     </div>
   )
