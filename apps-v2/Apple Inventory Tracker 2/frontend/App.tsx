@@ -16,16 +16,6 @@ hi hi hi
 export default function App() {
   return (
     <div
-      style={{
-        fontFamily: 'sans-serif',
-        padding: 0,
-        margin: 0,
-        background: '#e9ebdf',
-        position: 'relative',
-        width: '100vw',
-        height: '100vh',
-        overflow: 'hidden',
-      }}
     >
       <StarterCanvas />
       <CenterOverlay />
