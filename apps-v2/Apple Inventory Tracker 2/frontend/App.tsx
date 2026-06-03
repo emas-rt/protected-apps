@@ -8,21 +8,6 @@ export function CenterOverlay() {
   return (
     <div style={{ position: 'absolute', inset: 0, zIndex: 1, pointerEvents: 'none' }}>
       <div
-        style={{
-          position: 'absolute',
-          top: '50%',
-          left: '50%',
-          transform: 'translate(-50%, -50%)',
-          width: 209,
-          padding: 24,
-          borderRadius: 8,
-          background: '#eeefe9',
-          boxShadow: '0 0 0 1px rgba(0, 0, 0, 0.12)',
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'flex-start',
-          gap: 16,
-        }}
       >
         <p
           style={{
@@ -52,7 +37,7 @@ export function CenterOverlay() {
             textAlign: 'left',
           }}
         >
-          World
+          World :)
         </p>
       </div>
     </div>
