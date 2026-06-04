@@ -4,7 +4,10 @@
     "app": {
       "uuid": "1f59f656-5f83-11f1-ba66-570dccfd1c24",
       "name": "Untitled-2600",
-      "resourceReferencesByFile": {},
+      "resourceReferencesByFile": {
+        "/backend/math/addOne.ts": [],
+        "/backend/user.d.ts": []
+      },
       "appIdentifier": "untitled-2600"
     }
   }

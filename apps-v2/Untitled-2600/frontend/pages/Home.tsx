@@ -16,7 +16,7 @@ export default function Home() {
     <div className="max-w-4xl mx-auto">
       <div className="text-center mb-12">
         <h1 className="text-5xl font-bold tracking-tight mb-4 text-foreground">
-          Multi-Page App
+          Multi-Page App (TEST TEST TEST)
         </h1>
         <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
           A real multi-page application using React Router with Vite's automatic
