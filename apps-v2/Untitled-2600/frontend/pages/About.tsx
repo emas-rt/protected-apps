@@ -6,7 +6,7 @@ export default function About() {
       <header className="mb-8">
         <h1 className="text-3xl font-bold text-foreground">About this app</h1>
         <p className="text-muted-foreground">
-          How the multi-page architecture and code splitting work. TESTING 123 ABC
+          How the multi-page architecture and code splitting work. TESTING 123 ABC hello
         </p>
       </header>
 
