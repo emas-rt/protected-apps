@@ -3,7 +3,7 @@
 
 export default function App() {
   return (
-    <div>hi</div>
+    <div>hi hello</div>
   )
 }
 /* eslint-enable react-perf/jsx-no-new-object-as-prop */
