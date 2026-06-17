@@ -10,6 +10,7 @@ export default function App() {
       <div>hello</div>
       <div>hi</div>
       <div>123</div>
+      <div>xyz</div>
     </>
   )
 }
