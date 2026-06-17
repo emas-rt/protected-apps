@@ -8,6 +8,7 @@ export default function App() {
     <div>12345</div>
       <div>erin</div>
       <div>hello</div>
+      <div>hi</div>
     </>
   )
 }
