@@ -17,7 +17,7 @@ export default function App() {
       <p className="text-muted-foreground">Powered by canvas-confetti</p>
       <Button size="lg" onClick={fire} className="gap-2">
         <PartyPopper className="w-5 h-5" />
-        Celebrate
+        Celebrate :)
       </Button>
     </div>
   )
