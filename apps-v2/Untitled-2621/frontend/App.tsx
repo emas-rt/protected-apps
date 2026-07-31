@@ -4,7 +4,7 @@
 
 export default function App() {
   return (
-    <div>123</div>
+    <div>12 123 3</div>
   )
 }
 /* eslint-enable react-perf/jsx-no-new-object-as-prop */
