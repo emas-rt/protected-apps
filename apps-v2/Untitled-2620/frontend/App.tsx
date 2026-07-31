@@ -3,7 +3,7 @@
 
 export default function App() {
   return (
- <div>erin</div>
+ <div>{__MY_APP_VERSION__}</div>
   )
 }
 /* eslint-enable react-perf/jsx-no-new-object-as-prop */
