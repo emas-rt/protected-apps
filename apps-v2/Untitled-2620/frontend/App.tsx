@@ -3,7 +3,7 @@
 
 export default function App() {
   return (
- <div>abc 123 xyz</div>
+ <div>erin</div>
   )
 }
 /* eslint-enable react-perf/jsx-no-new-object-as-prop */
